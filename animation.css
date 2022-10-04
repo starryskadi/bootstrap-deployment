@@ -1,0 +1,19 @@
+.button {
+  background: #000;
+  color: white;
+  outline: 0px;
+  padding: 10px 15px;
+  animation-name: scaleup;
+  animation-duration: 2s;
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: alternate; */
+}
+
+@keyframes scaleup {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
